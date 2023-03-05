@@ -7,7 +7,7 @@ This repository contains the code used to create my personal portfolio website, 
 The code is a mix of many parts taken from free website templates from the web and many personal additions and modifications.
 
 ## Authors
-- [Luca Multazzu](https://github.com/lmul)
+- [Luca Multazzu](https://github.com/lucamul)
 
 ## Structure of the repository
 
