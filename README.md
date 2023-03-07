@@ -4,7 +4,7 @@
 
 This repository contains the code used to create my personal portfolio website, to see it click [here](https://lucamul.github.io/).
 
-The code is a mix of many parts taken from free website templates from the web and many personal additions and modifications.
+The template was kindly taken from Elia Fantini, to see his work click [here](https://eliafantini.github.io/Portfolio/).
 
 ## Authors
 - [Luca Multazzu](https://github.com/lucamul)
@@ -23,4 +23,4 @@ HTML, CSS, Javascript. Web development and design, color design.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lucamul.github.io/))
-[![linkedin]https://www.linkedin.com/in/luca-multazzu-895422184/)
+[![linkedin](https://www.linkedin.com/in/luca-multazzu-895422184/)
