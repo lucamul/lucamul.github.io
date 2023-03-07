@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="PortfolioWebsite" src="https://user-images.githubusercontent.com/62103572/192148891-353a284c-a735-4e37-8e99-583415249d79.png">
+  <img alt="PortfolioWebsite" src="https://raw.githubusercontent.com/lucamul/lucamul.github.io/main/My_Portfolio.png">
 </p>
 
 This repository contains the code used to create my personal portfolio website, to see it click [here](https://lucamul.github.io/).
