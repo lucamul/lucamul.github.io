@@ -22,5 +22,5 @@ To locally host the website and see the changes done, you can use the VS Code's 
 HTML, CSS, Javascript. Web development and design, color design.
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lucamul.github.io/))
-[![linkedin](https://www.linkedin.com/in/luca-multazzu-895422184/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lucamul.github.io/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luca-multazzu-895422184/)
