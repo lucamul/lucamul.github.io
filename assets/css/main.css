@@ -24,7 +24,7 @@
 	margin-left:9px;
 	padding:0;
 	opacity:0.5;
-	color: var(--main3);
+	color: var(--main5);
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -250,7 +250,7 @@ color: var(--grey2); }
   
   .timeline-title {
 	margin-top: 0;
-	color: var(--main4);
+	color: var(--main5);
 	display: inline-block;
 	padding: 7px 15px;
 	font-size: 14px;
