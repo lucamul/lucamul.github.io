@@ -1,513 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Luca Multazzu Portfolio</title>
   <meta charset="utf-8">
+  <title>Luca Multazzu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="keywords" content="portfolio, LucaMultazzu, Luca, Multazzu, Computer scientist, Machine Learning, Data scientist, data analytics, Cyber Security, Cryptography, Information Security, Performance Optimization">
+  <meta name="description" content="Luca Multazzu — Backend Engineer at SICPA, working on distributed systems, applied cryptography, and privacy. ETH Zürich, MSc Cyber Security.">
+  <meta name="keywords" content="Luca Multazzu, Backend Engineer, Distributed Systems, Applied Cryptography, ETH Zurich, SICPA">
   <meta name="author" content="Luca Multazzu">
-  <link rel="stylesheet" href="assets/css/main.css">
-  
 
+  <meta property="og:title" content="Luca Multazzu">
+  <meta property="og:description" content="Backend Engineer at SICPA. Distributed systems, applied cryptography, and privacy.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucamul.github.io/">
 
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%23f6f1e6'/%3E%3Ctext x='32' y='43' font-family='Georgia, serif' font-size='28' fill='%238f2d20' text-anchor='middle'%3ELM%3C/text%3E%3C/svg%3E">
 
-  	<!-- Animations -->
-  <link href="assets/css/animate.css" rel="stylesheet">
-	<!-- Text Rotator-->
-  <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-    <!-- Bootstrap -->
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Icons svg -->
-  <link href="assets/css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-  <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <link href="assets/flag-icons-main/css/flag-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-	<!-- SECTION: Splashscreen -->
-	<div class="splashscreen">
-		<div class="preloader">
-			<span class="preloader__text">Loading</span>
-		</div>
-	</div>
-	<!-- END SECTION: Splashscreen -->
-	<!-- SECTION: Navigation -->
-	<div id="top" class="navigation">
-		<div class="navigation__wrapper wrapper--large">
-			<p class="navigation__logo logo">LM</p>
-			<nav class="navigation__container">
-				<ul class="navigation__list">
-					<li><a href="#about">About Me</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#journey">Journey</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact me</a></li>
-				</ul>
-			</nav>
-			<a class="navigation__cta button" href="assets/pdf/CV.pdf">Download Resume</a>
-			<div class="navigation__burger">
-				<span class="navigation__burger-el navigation__burger-el--top"></span>
-				<span class="navigation__burger-el navigation__burger-el--middle"></span>
-				<span class="navigation__burger-el navigation__burger-el--bottom"></span>
-			</div>
-		</div>
-	</div>
-	<!-- END SECTION: Navigation -->
-	<!-- SECTION: Main -->
-	<header class="header">
-		<div class="introduction">
-			<div class="links">
-				<ul class="list-inline list-social-icons mb-0">
-					<li class="list-inline-item">
-					<a href="https://www.linkedin.com/in/luca-multazzu-895422184/">
-						<span class="fa-stack fa-lg">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-						</span>
-					</a>
-					</li>
-				</br>
-					<li class="list-inline-item">
-					<a href="https://github.com/lucamul">
-						<span class="fa-stack fa-lg">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-						</span>
-					</a>
-					</li>
-				</br>
-				<li class="list-inline-item">
-				<a href="https://www.instagram.com/l__mul/">
-					<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-					</span>
-				</a>
-				</li>
-				</br>
-				<li class="list-inline-item">
-				<a href = "mailto: lcmultazzu@gmail.com">
-					<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-					</span>
-				</a>
-				</li>
-				</ul>
-			</div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-			<section class="hero" id="hero">
-				<div class="container">
-				  <div class="row">
-					<div class="col-md-8 col-md-offset-1 inner">
-					  <h1 class="animated fadeInDown">
-						Luca<br/>
-						<span>Multazzu</span>
-					  </h1>
-					  <h3 class="animated fadeInUp delay-05s"><span class="rotate">computer engineering*cyber security*data science*performance optimization</span></h3><!-- Text Rotator -->
-					</div>
-				  </div>
-				</div>
-			
-			  </section>
-			<svg class="introduction__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M22.2 634c-50-35-40-47 293-349 174-157 323-285 333-285 24 0 635 552 647 585 8 23 6 30-14 46 -13 10-31 19-40 19s-57-37-107-83c-50-45-179-162-287-260l-197-179 -147 134c-319 289-433 388-446 388C50.2 650 34.2 643 22.2 634z"/></g></svg>
-		</div>
-	</header>
-	<!-- END SECTION: Main -->
-	<main role="main">
-		<!-- SECTION: About me -->
-			<div id="about" class="about__wrapper wrapper--small">	
-				<div class="about__content">
-					<div class="about__content-blurb blurb blurb--framed">
-						<div id="about" class="section colored_block">
-							<div class="container">
-								<div class="row colored_block">
-									<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
-										<h1>ABOUT ME</h1>
-										<h3 style = "color: #a40000";>BACKEND SOFTWARE ENGINEER 
-										&AMP;
-										APPLIED CRYPTOGRAPHER</h3>
-										<p>Hello, my name is Luca Multazzu, Software Engineer & Applied Cryptographer at SICPA </p>
-										<p>I am well versed in backend software engineering, with in depth experience in design and implementation of 
-										 Microservice-based event driven architectures with Java and Spring Boot.
-										</p>
-									</div>
-									<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-										<span>Backend Software Engineering<small>98%</small></span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-										</div>
-										<span>Backend Architectural Design<small>95%</small></span>
-											<div class="progress">
-												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-											</div>
-										<span>Secure Coding &AMP; Access Rights Management<small>95%</small></span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-										</div>
-										<span>Performance Optimization <small>90%</small></span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-										</div>
-										<span>Cryptography <small>85%</small></span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-										</div>
-										<span class="text-top">Deep Learning &AMP; ML<small>80%</small></span>
-											<div class="progress">
-												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-											</div>
-										<span>Data Analytics <small>85%</small></span>
-											<div class="progress">
-												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-											</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END SECTION: About me -->
-		<!-- SECTION: Skills -->
+  <header class="nav" id="nav">
+    <div class="nav__inner wrapper">
+      <a href="#top" class="nav__logo">Luca Multazzu</a>
 
-		<section id="skills" class="wrapper--small">
-			<div class="about__content">
-			  <div class="about__content-blurb blurb blurb--framed">
-				<div class="container container_skills">
-				  <div class="row row_skills">
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-					  <h2 class="blurb__heading">Technical Skills</h2>
-					  <div class="row">
-						<div class="col-sm-6">
-						  <h4 style="font-weight: 700; color: #a40000;">Languages:</h4>
-						  <ul>
-							<li>Java (expert)</li>
-							<li>Kotlin</li>
-							<li>Rust</li>
-							<li>Python</li>
-							<li>C</li>
-							<li>C++</li>
-							<li>Scala</li>
-						  </ul>
-		  
-						  <h4 style="font-weight: 700; color: #a40000;">Frameworks &amp; Tools:</h4>
-						  <ul>
-							<li>Spring Boot 3</li>
-							<li>Kafka</li>
-							<li>gRPC</li>
-							<li>REST</li>
-							<li>Keycloak</li>
-							<li>Jenkins</li>
-						  </ul>
-		  
-						  <h4 style="font-weight: 700; color: #a40000;">Databases:</h4>
-						  <ul>
-							<li>PostgreSQL</li>
-							<li>Oracle DB</li>
-							<li>Neo4j</li>
-							<li>GraphQL</li>
-						  </ul>
-						</div>
-						<div class="col-sm-6">
-						  <h4 style="font-weight: 700; color: #a40000;">Architecture:</h4>
-						  <ul>
-							<li>Distributed Microservices</li>
-							<li>Secure Systems</li>
-							<li>Payment Systems</li>
-						  </ul>
-		  
-						  <h4 style="font-weight: 700; color: #a40000;">Cloud &amp; Deployment:</h4>
-						  <ul>
-							<li>AWS</li>
-							<li>On-Prem</li>
-							<li>CI/CD Pipelines</li>
-						  </ul>
-		  
-						  <h4 style="font-weight: 700; color: #a40000;">Methodologies:</h4>
-						  <ul>
-							<li>Agile Scrum</li>
-							<li>Secure Coding</li>
-							<li>Cryptography</li>
-						  </ul>
-						</div>
-					  </div>
-					</div>
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-					  <div class="blog__post-thumbnail">
-						<img src="assets/img/skills2.png" alt="Skills graphic">
-					  </div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </section>
-		  
-		  
-		<!-- END SECTION: Skills -->
+      <nav class="nav__links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/pdf/CV.pdf" target="_blank" rel="noopener" class="nav__cv">CV</a>
+      </nav>
 
-		<!-- SECTION: My journey -->
-		<div id="fh5co-resume" class="fh5co-bg-color colored_block darker_block">
-			<div id="journey" class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0">
-						<ul class="timeline">
-							
-							<li class="timeline-heading text-center animate-box">
-								<div><h3 class="timelinetext">MY JOURNEY</h3></div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="fi fi-it"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title ">High School of Sciences Diploma</h3>
-										<span class="company" >Italy’s upper secondary school</br>
-											2013-2018</span>
-									</div>
-									<div class="timeline-body">
-										<p>GPA: 100 /100 with honours </p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="fi fi-it"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Computer Engineering Bachelor’s degree</h3>
-										<span class="company">Politecnico di Torino</br>2018 - 2021</span>
-									</div>
-									<div class="timeline-body">
-										<p>GPA: 110/110 </br></br></p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="fi fi-ch"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">MSc Cyber Security with Minor in Data Management Systems</h3>
-										<span class="company">ETH of Zurich, Swiss Federal Institute of Technology</br>2021 - September 2023</span>
-										<span class="company">Joint with EPFL, Swiss Federal Institute of Technology</br>(Fall semester 2022)</span>
-									</div>
-									<div class="timeline-body">
-										<p>Current GPA: 5.49/6 </br></br></p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="fi fi-ch"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Backend Software Engineer 
-											&AMP;
-											Applied Cryptographer</h3>
-										<span class="company">SICPA</br>From September 2023</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- END SECTION: My journey -->
+      <button class="nav__burger" id="nav-burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-		<!-- SECTION: Projects -->
-		<section id="projects" class="blog">
-			<h2 class="blog__heading title">Projects</h2>
-			<div class="subtitle"> 
-				<p>All the images with the four coloured squares on the bottom right were created using <a href="https://openai.com/dall-e-2/">DALL·E 2</a> AI by OpenAI to metaphorically represent the content of the projects.</p>
-			</div>
-			<div class="blog__wrapper wrapper--large">
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/portfolio.png" alt="Man making a portfolio">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Portfolio Website</h3>
-						<p class="project_description">The code I used to make this website. Credits to Elia fantini <a href="https://eliafantini.github.io/Portfolio/">His website. </a></p>
-						<a class="navigation__cta button" href="">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/RS.png" alt="a Road from above">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Road Segmentation Classifier</h3>
-						<p class="project_description">a neural network to classify patches of images as road or not road.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/LLA">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/boson.png" alt="Higgs Boson art">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Higgs' Boson Classifier</h3>
-						<p class="project_description">A logistic regression classifier which classifies the data from CERN as Higgs' boson sighting or background radiation.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/LBL">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/eventplatform.png" alt="event platform">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Event Platform</h3>
-						<p class="project_description">
-							Two versions of a web-app for an event platform implemented using ActionGUI first and GraphQL with GraphQL-Shield secondly, ensuring correct access rights.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/EventPlatform">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/NNMF.png" alt="Matrix 3d rendering">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Non-Negative Matrix Factorization Optimization</h3>
-						<p class="project_description">performance optimization of NNMF algorithm done by using techniques such as vector instructions, cache blocking, register blocking etc.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/NNMF">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/ORA.png" alt="Transactional Database">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Optimal Read Atomic Transactions (ORA)</h3>
-						<p class="project_description">Project on design and implementation of a brand new Read Atomic algorithm for transactional databases.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/PORA">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/EP.png" alt="Transactional Database">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>NOCS-optimal Distributed Causally Consistent Transactions and Beyond</h3>
-						<p class="project_description">Design and implementation on a new Causally Consistent transactional algorithm.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/Eiger-PORT-plus-plus">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/OVN.png" alt="Optical Fiber">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Virtualization of a Fiber Optics network</h3>
-						<p class="project_description">This project virtualizes a fiber optics network in Python</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/OVN/">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/rattlesnake.png" alt="3D rendering of a Rattlesnake">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Verifying compiler for Rattlesnake</h3>
-						<p class="project_description">This project takes a new programming language, Rattlesnake, written in Scala, and adds a verifying compiler to it.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/FVR">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/STM.png" alt="3d rendeing of transactional memory">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>STM implementation based on TL2</h3>
-						<p class="project_description">This project aims at creating a Software Transactional Memory based on the TL2 design.</p>
-						<a class="navigation__cta button" href="https://github.com/lucamul/MySTM">See more</a>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="./assets/portfolio-img/UX.png" alt="A repair desk">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Coffix</h3>
-						<p class="project_description">This Experience Design project aimed at developing a platform for repair cafes.</p>
-						<a class="navigation__cta button" href="https://circularcity2022.wordpress.com/2022/12/14/coffix/">See more</a>
-					</div>
-				</article>
-			</div>
-		</section>
-		<!-- END SECTION: Projects -->
+  <main id="main">
 
-		<!-- SECTION: Contact me-->
-		<section id="contact" class="contact">
-			<h2 class="contact__heading title">Contact Me</h2>
-			<div class="contact__wrapper wrapper--large">
-				<div class="contact__visual">
-					<img src="assets/img/contact-visual.png" alt="mailbox">
-				</div>
-				<form action="https://formspree.io/f/xrgvkwyb" method="POST" class="contact__form">
-					<input class="contact__form-el contact__form-el--name" type="text" name="name" placeholder="Your Name" spellcheck="false">
-					<input class="contact__form-el contact__form-el--email" type="email" name="email" placeholder="Your Email" spellcheck="false">
-					<textarea class="contact__form-el contact__form-el--message" name="message" placeholder="Your Message"></textarea>
-					<input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
-				</form>
-			</div>
-		</section>
-		<!-- END SECTION: Contact me-->
-	</main>
-	<!-- SECTION: Footer -->
-	<footer class="footer">
-		<div class="footer__wrapper wrapper--large">
-			<p class="footer__copyright no-margin">&copy; 2023 Luca Multazzu</p>
-			<p class="footer__logo logo" >LM</p>
-			<a class="footer__arrow" href="#top">
-				<svg class="footer__arrow-el" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"/></g></svg>
-			</a>
-		</div>
-	</footer>
-	<!-- END SECTION: Footer -->
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrapper">
+        <p class="hero__kicker">Backend Engineer, Lausanne</p>
+        <h1 class="hero__name">Luca Multazzu</h1>
+        <p class="hero__lede">
+          I build distributed systems at SICPA and do applied research in cryptography and
+          privacy. Before that, I studied cyber security at ETH Zürich, where my master's
+          research on distributed transactions was awarded the ETH Medal.
+        </p>
+        <p class="hero__links">
+          <a href="mailto:lcmultazzu@gmail.com">Email</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.linkedin.com/in/luca-multazzu-895422184/" target="_blank" rel="noopener">LinkedIn</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/lucamul" target="_blank" rel="noopener">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="assets/pdf/CV.pdf" target="_blank" rel="noopener">CV</a>
+        </p>
+      </div>
+    </section>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<!-- jQuery local fallback -->
-	<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-	<script src="assets/js/functions-min.js"></script>
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
-	<!--
-	<script>
-	(function(b, o, i, l, e, r) {
-		b.GoogleAnalyticsObject = l;
-		b[l] || (b[l] =
-			function() {
-				(b[l].q = b[l].q || []).push(arguments)
-			});
-		b[l].l = +new Date;
-		e = o.createElement(i);
-		r = o.getElementsByTagName(i)[0];
-		e.src = '//www.google-analytics.com/analytics.js';
-		r.parentNode.insertBefore(e, r)
-	}(window, document, 'script', 'ga'));
-	ga('create', 'UA-XXXXX-X', 'auto');
-	ga('send', 'pageview');
-	</script>
-	-->	
-	<!-- Text Rotator -->
-	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-	<!-- TEXT ROTATOR SETTINGS -->
-	<script type="text/javascript">
-		$(".rotate").textrotator({
-			animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-			separator: "*", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-			speed: 2000 // How many milliseconds until the next word show.
-		});
-		</script>
-	<!-- Bootstrap -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrapper wrapper--prose">
+        <h2 class="section__title">About</h2>
+        <p>
+          I'm a backend engineer at SICPA, where I've spent the last three years designing
+          distributed, event-driven systems for payments, digital identity, and product
+          traceability. Alongside that I do applied research into cryptography and
+          privacy-preserving technology, prototyping ideas before they become products.
+        </p>
+        <p>
+          I hold an MSc in Cyber Security from ETH Zürich, jointly with EPFL, where I focused
+          on applied cryptography, distributed systems, and formal verification. My master's
+          thesis on distributed transaction protocols was awarded the ETH Medal, and the work
+          continued into three papers written with my former advisors, on protocol design and
+          formal verification of database isolation guarantees.
+        </p>
+        <p>
+          Day to day I write Java, Kotlin, Rust, and Python most often, though I've worked in
+          C, C++, and Scala too. Outside of work I build small systems software for fun, most
+          recently a terminal text editor in Rust, and I keep experimenting with data science
+          and machine learning applied to security problems.
+        </p>
+      </div>
+    </section>
 
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="wrapper">
+        <h2 class="section__title">Experience</h2>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__head">
+              <h3>Backend Engineer &amp; Applied Researcher</h3>
+              <span class="timeline__date">2023 — present</span>
+            </div>
+            <p class="timeline__org">SICPA, Switzerland</p>
+            <ul class="timeline__bullets">
+              <li>Design and build backend systems for payments, digital identity, and product traceability, mostly in Java and Spring Boot, on Kafka and gRPC.</li>
+              <li>Do applied research in cryptography and privacy-preserving technology, and help turn early prototypes into production designs.</li>
+              <li>Apply data science and machine learning to security and fraud-detection problems.</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__head">
+              <h3>MSc Cyber Security, minor in Data Management Systems</h3>
+              <span class="timeline__date">2021 — 2023</span>
+            </div>
+            <p class="timeline__org">ETH Zürich, joint degree with EPFL</p>
+            <p class="timeline__desc">
+              GPA 5.49/6. Coursework in applied cryptography, security engineering, distributed
+              systems, and formal verification. Master's thesis on distributed transaction
+              protocols, awarded the ETH Medal for outstanding thesis work.
+            </p>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__head">
+              <h3>BSc Computer Engineering</h3>
+              <span class="timeline__date">2018 — 2021</span>
+            </div>
+            <p class="timeline__org">Politecnico di Torino</p>
+            <p class="timeline__desc">Graduated 110/110 with honours.</p>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__head">
+              <h3>Applied Cryptography Specialisation</h3>
+              <span class="timeline__date">2025</span>
+            </div>
+            <p class="timeline__org">University of Colorado, certification</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="wrapper">
+        <h2 class="section__title">Research</h2>
+        <p class="section__sub">
+          Work from my time at ETH Zürich, with David Basin's group, on the correctness and
+          performance of distributed database transactions.
+        </p>
+
+        <ol class="pubs">
+          <li class="pubs__item">
+            <p class="pubs__title">VerIso: Verifiable Isolation Guarantees for Database Transactions</p>
+            <p class="pubs__meta">S. Ghasemirad, S. Liu, C. Sprenger, L. Multazzu, D. Basin — <span class="pubs__venue">Proc. VLDB Endowment</span>, 18(5), 2025</p>
+            <a class="pubs__link" href="https://arxiv.org/abs/2503.06284" target="_blank" rel="noopener">Read paper</a>
+          </li>
+          <li class="pubs__item">
+            <p class="pubs__title">Pushing the Limit: Verified Performance-Optimal Causally-Consistent Database Transactions</p>
+            <p class="pubs__meta">S. Ghasemirad, C. Sprenger, S. Liu, L. Multazzu, D. Basin — <span class="pubs__venue">arXiv</span>:2411.07049, 2024</p>
+            <a class="pubs__link" href="https://arxiv.org/abs/2411.07049" target="_blank" rel="noopener">Read paper</a>
+          </li>
+          <li class="pubs__item">
+            <p class="pubs__title">NOC-NOC: Towards Performance-optimal Distributed Transactions</p>
+            <p class="pubs__meta">S. Liu, L. Multazzu, H. Wei, D. Basin — <span class="pubs__venue">Proc. ACM Manag. Data</span> (SIGMOD), 2(1), 2024</p>
+            <a class="pubs__link" href="https://dl.acm.org/doi/10.1145/3639264" target="_blank" rel="noopener">Read paper</a>
+          </li>
+          <li class="pubs__item">
+            <p class="pubs__title">NOCS-Optimal Distributed Transactions and Beyond</p>
+            <p class="pubs__meta">Master's thesis, ETH Zürich, 2023. Advised by Prof. David Basin and Dr. Si Liu. Awarded the <span class="pubs__venue">ETH Medal</span>.</p>
+            <a class="pubs__link" href="https://www.research-collection.ethz.ch/handle/20.500.11850/643208" target="_blank" rel="noopener">Read thesis</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="wrapper">
+        <h2 class="section__title">Skills</h2>
+
+        <div class="skills">
+          <div class="skills__row">
+            <h3>Languages</h3>
+            <p>Java, Kotlin, Rust, Python, C, C++, Scala</p>
+          </div>
+          <div class="skills__row">
+            <h3>Backend &amp; distributed systems</h3>
+            <p>Spring Boot, Kafka, gRPC, REST, microservices, event-driven architecture</p>
+          </div>
+          <div class="skills__row">
+            <h3>Cryptography &amp; security</h3>
+            <p>Applied cryptography, digital identity, privacy-preserving technology, Keycloak, OAuth 2.0, OpenID Connect</p>
+          </div>
+          <div class="skills__row">
+            <h3>Data &amp; machine learning</h3>
+            <p>Data science, machine learning, OSINT, fraud detection</p>
+          </div>
+          <div class="skills__row">
+            <h3>Databases &amp; infrastructure</h3>
+            <p>PostgreSQL, Oracle, Neo4j, GraphQL, AWS, CI/CD, Jenkins</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrapper">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__sub">A few things I've built outside of work.</p>
+
+        <ol class="projects">
+          <li class="projects__item">
+            <div class="projects__head">
+              <h3>Jqln</h3>
+              <a href="https://github.com/lucamul/Jqln" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <p>A terminal text editor for long-form writing, written in Rust.</p>
+          </li>
+          <li class="projects__item">
+            <div class="projects__head">
+              <h3>Verifying compiler for Rattlesnake</h3>
+              <a href="https://github.com/lucamul/FVR" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <p>Added pre/post-condition checking to a small imperative language's compiler, written in Scala, for a formal verification course.</p>
+          </li>
+          <li class="projects__item">
+            <div class="projects__head">
+              <h3>Road segmentation classifier</h3>
+              <a href="https://github.com/lucamul/LLA" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <p>A convolutional neural network that labels satellite image patches as road or not, for a machine learning course.</p>
+          </li>
+        </ol>
+
+        <p class="projects__more"><a href="https://github.com/lucamul?tab=repositories" target="_blank" rel="noopener">More on GitHub →</a></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrapper wrapper--prose">
+        <h2 class="section__title">Contact</h2>
+        <p>
+          I'm happy to hear from people working on distributed systems or applied
+          cryptography, or anyone who just wants to say hello. The fastest way to reach me
+          is email.
+        </p>
+
+        <ul class="contact__list">
+          <li><span>Email</span><a href="mailto:lcmultazzu@gmail.com">lcmultazzu@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/luca-multazzu-895422184/" target="_blank" rel="noopener">in/luca-multazzu</a></li>
+          <li><span>GitHub</span><a href="https://github.com/lucamul" target="_blank" rel="noopener">@lucamul</a></li>
+          <li><span>Phone</span><a href="tel:+41767095522">+41 076 709 5522</a></li>
+        </ul>
+
+        <form action="https://formspree.io/f/xrgvkwyb" method="POST" class="contact__form">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper footer__inner">
+      <p>© 2026 Luca Multazzu</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

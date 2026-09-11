@@ -2,24 +2,34 @@
   <img alt="PortfolioWebsite" src="https://raw.githubusercontent.com/lucamul/lucamul.github.io/main/My_Portfolio.png">
 </p>
 
-This repository contains the code used to create my personal portfolio website, to see it click [here](https://lucamul.github.io/).
+This repository contains the code for my personal portfolio website — see it live [here](https://lucamul.github.io/).
 
-The template was kindly taken from Elia Fantini, to see his work click [here](https://eliafantini.github.io/Portfolio/).
+Built from scratch as a single-page site with plain HTML, CSS, and vanilla JavaScript — no build step, no frameworks, no jQuery.
 
 ## Authors
 - [Luca Multazzu](https://github.com/lucamul)
 
-## Structure of the repository
+## Structure
 
-The repository is ready to be deployed on the web, hence it follows the default folders' structure of common websites.
+```
+index.html            page markup
+assets/css/style.css   styles
+assets/js/main.js      nav toggle, scroll-spy, reveal-on-scroll, hero text rotator
+assets/pdf/CV.pdf       downloadable resume
+```
 
-## How to use it
-Download this repository and open it as a project in Visual Studio Code (or other IDE). With it you can modify and personalize each aspect. 
-To locally host the website and see the changes done, you can use the VS Code's plugin "Live Server". Once downloaded, right-click on index.html from VS Code and choose "Open with Live Server".
+## Running it locally
+
+No build tools required. Either open `index.html` directly in a browser, or serve it:
+
+```bash
+python3 -m http.server 8000
+# then visit http://localhost:8000
+```
 
 ## 🛠 Skills
 
-HTML, CSS, Javascript. Web development and design, color design.
+HTML, CSS, JavaScript.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lucamul.github.io/)
